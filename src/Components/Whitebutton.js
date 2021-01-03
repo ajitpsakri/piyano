@@ -43,12 +43,21 @@ const blackNames = [
 
 const Whitebutton = () => {
   return (
-    <div className="whitebutton">
-      {whiteNames.map((letter) => (
-        <button className="white" key={letter.toString()}>
-          {letter}
-        </button>
-      ))}
+    <div>
+      <div className="whitebutton">
+        {whiteNames.map((letter) => (
+          <button className="white" key={letter.toString()}>
+            {letter}
+          </button>
+        ))}
+      </div>
+      <div className="blackbutton">
+        {blackNames.map((letter) => (
+          <button className="black" key={letter.toString()}>
+            {letter}
+          </button>
+        ))}
+      </div>
     </div>
   );
 };

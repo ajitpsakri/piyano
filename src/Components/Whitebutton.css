@@ -1,3 +1,25 @@
+.whitebutton {
+  padding-left: 8em;
+}
 .white {
-  color: red;
+  color: black;
+  background-color: white;
+  width: 3em;
+  height: 16em;
+  padding-top: 14em;
+  margin: 0.5em;
+  position: relative;
+  right: 70px;
+  top: 200px;
+}
+.black {
+  color: white;
+  background-color: black;
+  width: 2em;
+  height: 10em;
+  padding-top: 8em;
+  margin: 20px;
+  position: relative;
+  bottom: 40px;
+  right: 50px;
 }
