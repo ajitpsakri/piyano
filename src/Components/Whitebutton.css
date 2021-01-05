@@ -7,7 +7,7 @@
   width: 3em;
   height: 16em;
   padding-top: 14em;
-  margin: 0.5em;
+  margin: 0.2em;
   position: relative;
   right: 70px;
   top: 200px;
@@ -16,10 +16,26 @@
   color: white;
   background-color: black;
   width: 2em;
-  height: 10em;
-  padding-top: 8em;
+  height: 8em;
+  padding-top: 6em;
   margin: 20px;
   position: relative;
-  bottom: 40px;
-  right: 50px;
+  bottom: 35px;
+  left: 28px;
+}
+._0 {
+  position: relative;
+  right: 465px;
+}
+
+._1 {
+  position: relative;
+  bottom: 147px;
+  right: 420px;
+}
+
+._2 {
+  position: relative;
+  bottom: 294px;
+  right: 380px;
 }

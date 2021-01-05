@@ -52,10 +52,12 @@ const Whitebutton = () => {
         ))}
       </div>
       <div className="blackbutton">
-        {blackNames.map((letter) => (
-          <button className="black" key={letter.toString()}>
-            {letter}
-          </button>
+        {blackNames.map((letter, index) => (
+          <div className={`_${index}`}>
+            <button className="black" key={letter.toString()}>
+              {letter}
+            </button>
+          </div>
         ))}
       </div>
     </div>
