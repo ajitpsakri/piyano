@@ -37,5 +37,77 @@
 ._2 {
   position: relative;
   bottom: 294px;
-  right: 380px;
+  right: 330px;
+}
+
+._3 {
+  position: relative;
+  bottom: 441px;
+  right: 283px;
+}
+
+._4 {
+  position: relative;
+  bottom: 587px;
+  right: 238px;
+}
+
+._5 {
+  position: relative;
+  bottom: 734px;
+  right: 148px;
+}
+
+._6 {
+  position: relative;
+  bottom: 881px;
+  right: 103px;
+}
+
+._7 {
+  position: relative;
+  bottom: 1027px;
+  right: 10px;
+}
+
+._8 {
+  position: relative;
+  bottom: 1174px;
+  left: 34px;
+}
+
+._9 {
+  position: relative;
+  bottom: 1321px;
+  left: 78px;
+}
+
+._10 {
+  position: relative;
+  bottom: 1467px;
+  left: 170px;
+}
+
+._11 {
+  position: relative;
+  bottom: 1614px;
+  left: 215px;
+}
+
+._12 {
+  position: relative;
+  bottom: 1761px;
+  left: 307px;
+}
+
+._13 {
+  position: relative;
+  bottom: 1907px;
+  left: 350px;
+}
+
+._14 {
+  position: relative;
+  bottom: 2054px;
+  left: 397px;
 }

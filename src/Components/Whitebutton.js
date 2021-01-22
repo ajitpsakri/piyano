@@ -1,5 +1,7 @@
 import React from "react";
 import "./Whitebutton.css";
+import useSound from 'use-sound'
+import sound from './277608__spidervis__piyanogizem-c'
 const whiteNames = [
   "Q",
   "W",
@@ -40,7 +42,7 @@ const blackNames = [
   ";",
   "'",
 ];
-
+const handleClick = useSound(sound)
 const Whitebutton = () => {
   return (
     <div>
@@ -51,9 +53,10 @@ const Whitebutton = () => {
           </button>
         ))}
       </div>
+
       <div className="blackbutton">
         {blackNames.map((letter, index) => (
-          <div className={`_${index}`}>
+          <div onClick={handleClick} className={`_${index}`}>
             <button className="black" key={letter.toString()}>
               {letter}
             </button>
