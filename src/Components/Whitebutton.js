@@ -1,7 +1,10 @@
 import React from "react";
 import "./Whitebutton.css";
-import useSound from 'use-sound'
-import sound from './277608__spidervis__piyanogizem-c'
+
+import sound from "../Components/C-Sound.mp3";
+
+//import useSound from "use-sound";
+
 const whiteNames = [
   "Q",
   "W",
@@ -42,13 +45,27 @@ const blackNames = [
   ";",
   "'",
 ];
-const handleClick = useSound(sound)
+
 const Whitebutton = () => {
+  let playIt = (e) => {
+    if (e.key === "W") {
+      var audio = new Audio(sound);
+      audio.play();
+    } else {
+      console.log("it did not play");
+    }
+  };
+
   return (
     <div>
       <div className="whitebutton">
         {whiteNames.map((letter) => (
-          <button className="white" key={letter.toString()}>
+          <button
+            // eslint-disable-next-line
+            onKeyPress={playIt}
+            className="white"
+            key={letter}
+          >
             {letter}
           </button>
         ))}
@@ -56,8 +73,9 @@ const Whitebutton = () => {
 
       <div className="blackbutton">
         {blackNames.map((letter, index) => (
-          <div onClick={handleClick} className={`_${index}`}>
-            <button className="black" key={letter.toString()}>
+          // eslint-disable-next-line
+          <div onKeyPress={playIt} className={`_${index}`}>
+            <button className="black" key={letter}>
               {letter}
             </button>
           </div>
