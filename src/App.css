@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+h1 {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+}
+
+a {
+  position: relative;
+  right: 470px;
+  top: 500px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
