@@ -7,11 +7,11 @@ import col from "../songs/'.mp3";
 import zer from "../songs/0.mp3";
 import tw from "../songs/2.mp3";
 import thre from "../songs/3.mp3";
-import fou from "../songs/4.mp3";
+// import fou from "../songs/4.mp3";
 import fiv from "../songs/5.mp3";
 import si from "../songs/6.mp3";
 import seve from "../songs/7.mp3";
-import eigh from "../songs/8.mp3";
+// import eigh from "../songs/8.mp3";
 import nin from "../songs/9.mp3";
 import aa from "../songs/a.mp3";
 import bb from "../songs/b.mp3";
@@ -84,8 +84,8 @@ const blackNames = [
 const Whitebutton = () => {
   let playIt = (e) => {
     if (e.key === "q") {
-      var qq = new Audio(q);
-      qq.play();
+      var q = new Audio(qq);
+      q.play();
     } else if (e.key === ",") {
       var comma = new Audio(coms);
       comma.play();
@@ -104,12 +104,9 @@ const Whitebutton = () => {
     } else if (e.key === "3") {
       var three = new Audio(thre);
       three.play();
-    } else if (e.key === "4") {
-      var four = new Audio(fou);
-      four.play();
     } else if (e.key === "5") {
       var five = new Audio(fiv);
-      fiv.play();
+      five.play();
     } else if (e.key === "6") {
       var six = new Audio(si);
       six.play();
@@ -167,9 +164,6 @@ const Whitebutton = () => {
     } else if (e.key === "p") {
       var p = new Audio(pp);
       p.play();
-    } else if (e.key === "q") {
-      var q = new Audio(qq);
-      q.play();
     } else if (e.key === "r") {
       var r = new Audio(rr);
       r.play();
